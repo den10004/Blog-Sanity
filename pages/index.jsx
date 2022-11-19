@@ -32,7 +32,8 @@ export default function Home({ initialPosts, total }) {
         <title>My blog</title>
       </Head>
       <Section>
-        <Cover title="devser" />
+        <h3>beta-версия</h3>
+        <Cover title="Личный блог о путешествиях и не только" />
       </Section>
       <Section>
         <Title>Посты</Title>

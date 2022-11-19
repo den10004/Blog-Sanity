@@ -12,7 +12,7 @@ const SocialNetworks = ({ className }) => {
 
   return (
     <ScreenEgg type="left">
-      <ul className={cl(className, styles.list)}>
+      {/* <ul className={cl(className, styles.list)}>
         {socialNetworks.map((socialNetwork) => {
           <li key={socialNetwork.id} className={styles.listItem}>
             <a
@@ -27,7 +27,7 @@ const SocialNetworks = ({ className }) => {
             </a>
           </li>;
         })}
-      </ul>
+      </ul>*/}
     </ScreenEgg>
   );
 };
