@@ -1,13 +1,6 @@
 import React, { useState } from "react";
 import Head from "next/head";
-import {
-  Button,
-  Post,
-  PostGrid,
-  Section,
-  SocialNetworks,
-  Title,
-} from "../components";
+import { Button, Post, PostGrid, Section, Title } from "../components";
 import Cover from "../components/Cover";
 import { loadPosts } from "./api/posts";
 
@@ -40,10 +33,9 @@ export default function Home({ initialPosts, total }) {
       </Head>
       <Section>
         <Cover title="devser" />
-        <SocialNetworks />
       </Section>
       <Section>
-        <Title>ПОСТ</Title>
+        <Title>Посты</Title>
         <PostGrid>
           {posts.map((post) => (
             <Post key={post.slug.current} {...post}></Post>
